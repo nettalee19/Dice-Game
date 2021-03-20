@@ -1,11 +1,13 @@
-import './App.css';
+// import './App.css';
 import Game from './Components/Game';
+//import Game from './Components/GameNV';
+import './Components/style.css'
 
 function App() {
   return (
     <div className="App">
      
-      <Game></Game>
+      <Game className="game"></Game>
     </div>
   );
 }

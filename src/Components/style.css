@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.game{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.ply{
+    color: #c6394d;
+    
+    background: #feffcb;
+}
+
+.player{
+    width: 35vw;
+    height: 90vh;
+    padding: 10vh;
+}
+
+.player h1{
+    font-size: 40px;
+    margin: 20px;
+}
+
+.player h2{
+    font-size: 30px;
+    margin: 30px;
+}
+
+.player p{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.panel{
+    width: 20vw;
+    padding: 10vh;
+    background: #ffb576;
+}
+
+.btn{
+    background-color:#ff6b83;
+    font-size: 20px;
+    border: none;
+}
+
+
+.btn:hover{
+    background-color: #c96e7d;
+    font-size: 20px;
+}
+
+/* .dice{
+    width: 200px;
+    height: 200px;
+} */
